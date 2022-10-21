@@ -1,0 +1,24 @@
+    {
+        "myData": {
+            "id": 1,
+            "title": "¡Hola! Mi nombre es Adara.",
+            "presentationItems": [
+                {
+                    "id": 1,
+                    "item": "Soy Desarrolladora de Software y futura Ingeniera en Informática."
+                },
+                {
+                    "id": 2,
+                    "item": "Me apasiona todo lo que tenga que ver con tecnología desde muy chica, por eso todo lo que hago es pura vocación."
+                },
+                {
+                    "id": 3,
+                    "item": "Me encanta trasmitir conocimientos."
+                },
+                {
+                    "id" : 4,
+                    "item" : "Ser profesora Front-end, fue uno de los desafios mas lindos que tuve la oportunidad de conocer este año."
+                }
+            ]
+        }
+    }

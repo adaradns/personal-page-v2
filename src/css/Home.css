@@ -1,0 +1,26 @@
+/* .container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+} */
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #EEEEEE;
+    padding: 0;
+    margin: 0;
+}
+
+/* .container{
+    background-color: rgb(2, 151, 102);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+} */
