@@ -100,7 +100,7 @@ function Info() {
                                         {...register("nombre", {
                                             required: "Este campo es requerido.",
                                             pattern: {
-                                                value: /^[A-Z]+$/i,
+                                                value: new RegExp(/^[A-Z]+$/i),
                                                 message: "No se admiten numeros."
                                             },
                                             maxLength: {
@@ -134,7 +134,7 @@ function Info() {
                                         {...register("email", {
                                             required: "Este campo es requerido.",
                                             pattern: {
-                                                value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/,
+                                                value: new RegExp(/^(?=.{1,254}$)(?=.{1,64}@)[-!#$%&'*+/0-9=?A-Z^_`a-z{|}~]+(\.[-!#$%&'*+/0-9=?A-Z^_`a-z{|}~]+)*@[A-Za-z0-9]([A-Za-z0-9-]{0,61}[A-Za-z0-9])?(\.[A-Za-z0-9]([A-Za-z0-9-]{0,61}[A-Za-z0-9])?)*$/),
                                                 message: "No es un email valido."
                                             },
                                             maxLength: {
