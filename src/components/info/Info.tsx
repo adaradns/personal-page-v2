@@ -86,10 +86,10 @@ function Info() {
 
                             <div className="links">
                                 <div className="link">
-                                    <a><img className='img-social' src="https://res.cloudinary.com/dw6c4dado/image/upload/v1668486133/github-svgrepo-com_1_j4tynz.svg" alt="github" /></a>
+                                    <a href="https://github.com/adaradns"><img className='img-social' src="https://res.cloudinary.com/dw6c4dado/image/upload/v1668486133/github-svgrepo-com_1_j4tynz.svg" alt="github" /></a>
                                 </div>
                                 <div className="link">
-                                    <a><img className='img-social' src="https://res.cloudinary.com/dw6c4dado/image/upload/v1668486357/gmail-svgrepo-com_1_uhryox.svg" alt="email" /></a>
+                                    <a href="https://gmail.com"><img className='img-social' src="https://res.cloudinary.com/dw6c4dado/image/upload/v1668486357/gmail-svgrepo-com_1_uhryox.svg" alt="email" /></a>
                                 </div>
                             </div>
                         </div>

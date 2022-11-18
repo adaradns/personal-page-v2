@@ -3,7 +3,6 @@ import '../../css/Home.css';
 import Card from '../card/Card';
 import NavBar from '../navbar/NavBar';
 import AboutMe from '../aboutme/AbuotMe';
-import AOS from "aos";
 import Skill from '../skills/Skill';
 import Info from '../info/Info';
 import Footer from '../footer/Footer';

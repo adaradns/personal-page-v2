@@ -1,13 +1,12 @@
 import React from 'react';
-import imgAdara from '../../assets/img/img_adara.png';
 import '../../css/Card.css';
 import myDataJson from '../../data/json/myData.json';
 import Typical from 'react-typical';
 
 function Card() {
-  const loadData = () => JSON.parse(JSON.stringify(myData));
+  // const loadData = () => JSON.parse(JSON.stringify(myData));
   const { myData } = myDataJson;
-  let presentacion = ['Hola', 'mi'];
+  // let presentacion = ['Hola', 'mi'];
   return (
     
     <section id="presentation" className="presentation">

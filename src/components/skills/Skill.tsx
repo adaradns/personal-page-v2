@@ -2,11 +2,11 @@ import React from 'react';
 import '../../css/Skill.css';
 import skillsDataJson from '../../data/json/skills.json'
 
-const loadData = () => JSON.parse(JSON.stringify(skills));
-const { skills } = skillsDataJson;
+// const loadData = () => JSON.parse(JSON.stringify(skills));
 
 
 function Skill() {
+    const { skills } = skillsDataJson;
     return (
         <section id="skills" className='skills'>
             <div className="skills-container">

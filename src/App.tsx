@@ -1,7 +1,6 @@
 import React from 'react';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import { useNavigate, Routes, Route } from "react-router-dom";
-import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom";
 import './App.css';
 import Loading from './components/common/Loading';
 import Home from './components/home/Home';
