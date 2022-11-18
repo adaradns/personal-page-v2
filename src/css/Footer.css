@@ -1,0 +1,58 @@
+.bg-footer{
+    background-image: url('https://res.cloudinary.com/dw6c4dado/image/upload/v1668399173/female-software-developer-flat-concept-illustration-vector_uoc9sj.jpg');
+    background-size: cover;
+}
+footer {
+    height: 50vh;
+    padding: 24px;
+    background: rgba(49,50,91,0.9);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+footer ul {
+    text-decoration: none;
+    
+
+}
+
+footer ul li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+footer ul li a {
+    color:#fff;
+    padding: 1em;
+}
+
+.footer-container img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s;
+    user-select: none;
+}
+
+.container-copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;    
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.container-copyright span {
+    color:#fff;
+}
+

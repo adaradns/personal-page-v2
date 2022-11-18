@@ -4,6 +4,11 @@ import { BrowserRouter } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'animate.css';
+
+interface RefObject<T> {
+  readonly current: T | null | undefined;
+}
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

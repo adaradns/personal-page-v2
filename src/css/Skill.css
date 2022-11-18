@@ -1,0 +1,130 @@
+section.skills {
+    background-image: url('https://img.freepik.com/premium-vector/top-view-modern-workplace-laptop-coffee-paper-note-pencil-white-background_34230-205.jpg?w=2000');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-color: #fff; */
+}
+
+.skills-container{
+    background: rgba(248, 248, 252, 0.8);
+}
+
+.skill-item {
+    padding-bottom: 2em;
+}
+
+.skill-title-container {
+    position: relative;
+    width: 100%;
+}
+
+.violet {
+    width: 80%;
+    height: 40px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+
+.violet::after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    width: 120%;
+    height: 40px;
+    background: rgba(46, 47, 88, 0.98);
+    transform: skew(40deg);
+}
+
+.light-violet {
+    background: #c4c4ee;
+    width: 35%;
+    right: 0px;
+    height: 65px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.light-violet::before {
+    content: "";
+    position: absolute;
+    left: -32px;
+    width: 65px;
+    height: 65px;
+    background: #c4c4ee;
+    transform: skew(40deg);
+}
+
+
+
+/* .section-title-container {
+    background-color: #1b1b35;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+} */
+
+.title-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    background-color: #fff;
+    border-top: 3px solid #1b1b35;
+}
+
+.title-container img {
+    width: 10%;
+}
+
+h2 {
+    color: #31325b;
+    padding: 1em;
+    text-align: center;
+    /* border-top: 3px solid #1b1b35; */
+    text-transform: uppercase;
+    font-size: 2em;
+
+}
+
+.skill-title {
+    padding-top: 3.5em;
+}
+
+.skill-title h3 {
+    color: #1b1b35;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.skills p.skill-description {
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+.skill-images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+}
+
+.skill-images img {
+
+    width: 60px;
+    height: 60px;
+}
+
+.container-skills {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+}

@@ -4,16 +4,22 @@ import Card from '../card/Card';
 import NavBar from '../navbar/NavBar';
 import AboutMe from '../aboutme/AbuotMe';
 import AOS from "aos";
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
+import Skill from '../skills/Skill';
+import Info from '../info/Info';
+import Footer from '../footer/Footer';
+import ScrollButton from '../common/ScrollButton';
 
 function Home() {
   return (
+
     <div className="container">
-        <NavBar />
-        <Card />
-        <AboutMe />
+      <NavBar />
+      <Card />
+      <AboutMe />
+      <Skill />
+      <Info />
+      <Footer />
+      <ScrollButton />
     </div>
   );
 }

@@ -1,21 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../css/NavBar.css';
-import logoAdara from '../../assets/img/logo.png';
+import MenuButton from './MenuButton';
+import Menu from './Menu';
 
 function NavBar() {
+  const [open, setOpen] = useState(false);
+  const handleClick = () => {
+    setOpen(!open);
+  };
+
   return (
-    <header>
-        <nav>
-            <a className="logo">
-                <img src={logoAdara} alt="Logo Adara Denis"/>
-            </a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="conoceme">Conóceme</a></li>
-                <li><a href="skills">Skills</a></li>
-                <li><a href="info">Info</a></li>
-            </ul>
-        </nav>
+    <header className="nav-bar">
+      <nav>
+        <MenuButton 
+          open={open} 
+          handleClick={handleClick} 
+        />
+        <Menu 
+          open={open}
+        />
+      </nav>
     </header>
   );
 }

@@ -1,0 +1,186 @@
+{
+    "skills" : [        
+        {
+            "id" : 1,
+            "titleEs" : "Frontend",
+            "titleEn" : "",
+            "description" : "Stack tecnologico para el desarrollo de aplicaciones web frontend.",
+            "images" : [
+                {
+                    "id" : 1,
+                    "urlImage": "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110423/reactjs-svgrepo-com_pjxhoc.svg",
+                    "title" : "ReactJS"
+                },
+                {
+                    "id" : 2,
+                    "urlImage": "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110464/js-svgrepo-com_pu7hsx.svg",
+                    "title" : "Javascript"
+                },
+                {
+                    "id" : 3,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110516/typescript-logo-svgrepo-com_ldplee.svg",
+                    "title" : "Typescript"
+                },
+                {
+                    "id" : 4,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110555/npm-svgrepo-com_qfy67k.svg",
+                    "title" : "NPM"
+                },
+                {
+                    "id" : 5,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110679/redux-svgrepo-com_je0e0w.svg",
+                    "title" : "Redux"
+                },
+                {
+                    "id" : 6,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110753/bootstrap-svgrepo-com_qofrri.svg",
+                    "title" : "Bootstrap"
+                },
+                {
+                    "id" : 7,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110795/css-svgrepo-com_nlwl2h.svg",
+                    "title" : "CSS3"
+                },
+                {
+                    "id" : 8,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110836/html-svgrepo-com_on4sg9.svg",
+                    "title" : "HTML5"
+                },
+                {
+                    "id" : 9,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110906/nodejs-svgrepo-com_adtjzb.svg",
+                    "title" : "NodeJS"
+                },
+                {
+                    "id" : 10,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668110932/nextjs-svgrepo-com_uqwgde.svg",
+                    "title" : "NextJS"
+                },
+                {
+                    "id" : 11,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668119448/material-ui-svgrepo-com_blyc8k.svg",
+                    "title" : "Material UI"
+                },
+                {
+                    "id" : 12,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668119538/styled-svgrepo-com_ptaucm.svg",
+                    "title" : "Styled"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "titleEs" : "Backend",
+            "titleEn" : "",
+            "description" : "Stack tecnologico para desarrollo e implementación de servicios en backend.",
+            "images" : [
+                {
+                    "id" : 1,
+                    "urlImage": "https://res.cloudinary.com/dw6c4dado/image/upload/v1668111959/java-svgrepo-com_gmztar.svg",
+                    "title" : "Java"
+                },
+                {
+                    "id" : 2,
+                    "urlImage": "https://res.cloudinary.com/dw6c4dado/image/upload/v1668111991/quarkus-icon-svgrepo-com_kulwe5.svg",
+                    "title" : "Quarkus"
+                },
+                {
+                    "id" : 3,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668112097/mysql-svgrepo-com_nzekxh.svg",
+                    "title" : "MySql"
+                },
+                {
+                    "id" : 4,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668112132/pgsql-svgrepo-com_pgfobg.svg",
+                    "title" : "Postgres"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "titleEs" : "Arquitectura e Infrastructura",
+            "titleEn" : "",
+            "description" : "Stack tecnologico que manejo para resolver Arquitectura de soluciones e integracion de sistemas.",
+            "images" : [
+                {
+                    "id" : 1,
+                    "urlImage": "https://res.cloudinary.com/dw6c4dado/image/upload/v1668103492/google-cloud-svgrepo-com_fdbh04.svg",
+                    "title" : "Google Cloud"
+                },
+                {
+                    "id" : 2,
+                    "urlImage": "https://res.cloudinary.com/dw6c4dado/image/upload/v1668103329/docker-svgrepo-com_ixcusp.svg",
+                    "title" : "Docker"
+                },
+                {
+                    "id" : 3,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668103381/terraform-icon-svgrepo-com_vk9smx.svg",
+                    "title" : "Terraform"
+                },
+                {
+                    "id" : 4,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668103594/redhat-svgrepo-com_egnnsw.svg",
+                    "title" : "Redhat"
+                },
+                {
+                    "id" : 5,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668103817/apigee-svgrepo-com_oc1tfr.svg",
+                    "title" : "Apigee"
+                },
+                {
+                    "id" : 6,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668103874/gitlab-svgrepo-com_u4u2qm.svg",
+                    "title" : "GitLab"
+                },
+                {
+                    "id" : 7,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668104117/kubernetes-svgrepo-com_ovuf7p.svg",
+                    "title" : "Kubernetes"
+                },
+                {
+                    "id" : 8,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668119386/harbor-icon-color_ftcatt.png",
+                    "title" : "Harbor"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "titleEs" : "Herramientas y estandares",
+            "titleEn" : "",
+            "description" : "Herramientas que utlizo para agilizar el desarrollo, implementación y prueba de las aplicaciones.",
+            "images" : [
+                {
+                    "id" : 1,
+                    "urlImage": "https://res.cloudinary.com/dw6c4dado/image/upload/v1668118694/swagger-svgrepo-com_okufky.svg",
+                    "title" : "Swagger"
+                },
+                {
+                    "id" : 2,
+                    "urlImage": "https://res.cloudinary.com/dw6c4dado/image/upload/v1668118799/postman-icon-svgrepo-com_fhdsto.svg",
+                    "title" : "Postman"
+                },
+                {
+                    "id" : 3,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668118861/vscode-svgrepo-com_kt7ooh.svg",
+                    "title" : "Vscode"
+                },
+                {
+                    "id" : 4,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668118970/git-icon-svgrepo-com_ioet2u.svg",
+                    "title" : "Git"
+                },
+                {
+                    "id" : 5,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668119034/github-svgrepo-com_u48izc.svg",
+                    "title" : "Github"
+                },
+                {
+                    "id" : 6,
+                    "urlImage" : "https://res.cloudinary.com/dw6c4dado/image/upload/v1668119120/json-svgrepo-com_myejx5.svg",
+                    "title" : "JSON"
+                }
+            ]
+        }
+    ]
+}
