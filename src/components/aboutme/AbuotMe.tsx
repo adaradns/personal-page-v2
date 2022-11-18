@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../css/AboutMe.css';
 import ItemParagraph from './ItemParagraph';
-import { useInView } from "react-intersection-observer";
 
 function AboutMe() {
   return (

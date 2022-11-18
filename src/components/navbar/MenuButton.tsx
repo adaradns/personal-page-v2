@@ -7,7 +7,7 @@ function MenuButton( { open, handleClick} : { open: boolean; handleClick: any } 
     return (
 
         <div className="logo">
-            <a>
+            <a href='#'>
                 <img src={logoAdara} alt="Logo Adara Denis" />
             </a>
             {!open ? 
