@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/NavBar.css';
+import './NavBar.css';
 import logoAdara from '../../assets/img/logo.png';
 
 function MenuButton( { open, handleClick} : { open: boolean; handleClick: any } ) {

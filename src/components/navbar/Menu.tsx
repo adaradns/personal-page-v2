@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/Menu.css';
+import './Menu.css';
 import { HashLink } from 'react-router-hash-link';
 
 function Menu( {open} : {open : boolean} ) {

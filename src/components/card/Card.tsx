@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/Card.css';
+import './Card.css';
 import myDataJson from '../../data/json/myData.json';
 import Typical from 'react-typical';
 
@@ -13,18 +13,21 @@ function Card() {
       <div className="card-container">
           <div className="title-card">
             <h1>{myData.title}</h1>
-            <img src="https://res.cloudinary.com/dw6c4dado/image/upload/v1668400603/waving-hand-svgrepo-com_ujcg4b.svg" alt="women-technologist" />
+            <img src="https://res.cloudinary.com/dw6c4dado/image/upload/v1668400603/waving-hand-svgrepo-com_ujcg4b.svg" alt="hand" />
           </div>
         <div className="card">
-
-          <Typical
-            steps={['Developer', 4000, 'Web Designer!', 4000, 'Architect', 4000]}
-            loop={Infinity}
-            wrapper="h3"
-          />
-          {myData.presentationItems.map((item) => {
-            return <p key={item.id}>{item.item}</p>
-          })}
+          <div className="tipical-card">
+            <Typical
+              steps={['Developer', 4000, 'Web Designer!', 4000, 'Architect', 4000]}
+              loop={Infinity}
+              wrapper="h3"
+            />
+          </div>
+          {/* <div className="card-paragraphs">
+            {myData.presentationItems.map((item) => {
+              return <p key={item.id}>{item.item}</p>
+            })}
+          </div> */}
           
         </div>
       <section  className="card diagonal-section bg-contrast-lower bg-opacity-50%">

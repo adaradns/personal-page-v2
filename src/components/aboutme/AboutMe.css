@@ -5,11 +5,12 @@
     #FAF0CA
 */
 
-.bg-about{
+.bg-about {
     background-image: url('https://img.freepik.com/free-vector/computer-monitor-graphic-animator-creating-video-game-modeling-motion-processing-video-file-using-professional-editor-vector-illustration-graphic-design-art-designer-workplace-concept_74855-13038.jpg?w=2000');
     background-size: cover;
 }
-.container-about{
+
+.container-about {
     background: rgba(209, 209, 226, 0.8);
     height: 100vh;
     /* url('../../public/background-about.svg'); */
@@ -29,19 +30,20 @@
     width: 10%;
 }
 
-h1.title-about{
+h1.title-about {
     color: #FAF0CA;
     padding: 1em;
     text-align: center;
     text-transform: uppercase;
 }
 
-section.aboutme p{
+section.aboutme p {
     padding: 1.1em;
     font-weight: bold;
     font-size: 1.2em;
     color: #2e2f5b;
 }
+
 .container-image-developer {
     display: flex;
     flex-direction: row;
@@ -51,7 +53,7 @@ section.aboutme p{
     padding: 1.5em;
 }
 
-.container-image-developer img{
+.container-image-developer img {
     width: 90%;
 }
 
@@ -69,3 +71,44 @@ section.aboutme p{
     animation-name: wipe-enter;
     animation-duration: 2s;
   } */
+
+@media screen and (min-width: 768px) {
+    .container-title {
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        background-color: #2e2f5b;
+    }
+
+    .container-title img {
+        width: 3%;
+    }
+
+    .container-about {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.aboutme p {
+        padding: 0.8em;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #2e2f5b;
+    }
+
+    .about-container-paragraph {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70vw;
+        background-color: rgba(176, 178, 255, 0.7);
+        -webkit-box-shadow: 4px 6px 5px -3px rgba(41, 41, 41, 1);
+        -moz-box-shadow: 4px 6px 5px -3px rgba(41, 41, 41, 1);
+        box-shadow: 4px 6px 5px -3px rgba(41, 41, 41, 1);
+    }
+}

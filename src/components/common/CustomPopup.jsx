@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../../css/CustomPopup.css";
+import "./CustomPopup.css";
 
 const CustomPopup = (props) => {
   const [show, setShow] = useState(false);

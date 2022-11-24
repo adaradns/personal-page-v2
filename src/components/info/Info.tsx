@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../css/Info.css';
+import './Info.css';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { useForm, SubmitHandler } from "react-hook-form";
 import { ErrorMessage } from "@hookform/error-message";
