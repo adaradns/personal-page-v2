@@ -16,7 +16,6 @@ section.info{
     flex-direction: row-reverse;
     justify-content: center;
     background-color: #31325b;
-    ;
 }
 
 .info-title img {
@@ -201,3 +200,21 @@ p.popup-description {
         height: 38px;
     }
 } */
+
+@media screen and (min-width: 768px) { 
+    .info-title {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        background-color: #31325b;
+    }
+    
+    .info-title img {
+        width: 3%;
+    }
+    
+    .info-title h2 {
+        color: #faf0ca;
+        text-transform: uppercase;
+    }
+}

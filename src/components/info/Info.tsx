@@ -39,18 +39,18 @@ function Info() {
             document.body.style.overflow = 'hidden';
         }
     };
-    
+
     const renderPopup = (title, description, isDisable) => {
         return (<CustomPopup
-                    onClose={popupCloseHandler}
-                    show={visibility}
-                    title="Hola 👋"
-                    isDisabled = {isDisabled}
-                    setDisabled = {setDisabled}
-                >
-                    <h3>{title}</h3>
-                    <p className='popup-description'>{description}</p>
-                </CustomPopup>);
+            onClose={popupCloseHandler}
+            show={visibility}
+            title="Hola 👋"
+            isDisabled={isDisabled}
+            setDisabled={setDisabled}
+        >
+            <h3>{title}</h3>
+            <p className='popup-description'>{description}</p>
+        </CustomPopup>);
     }
 
 
@@ -62,7 +62,7 @@ function Info() {
                 setName('');
                 setEmail('');
                 setMessage('');
-                
+
             }, (error) => {
                 console.log(error.text);
             });
@@ -73,12 +73,12 @@ function Info() {
     return (
         <section id="info" className='info'>
             {data !== null && visibility === true ? renderPopup("Gracias por contactarte conmigo.", "En breve recibiras un mensaje a tu email, con mas información acerca de tu consulta.", isDisabled) : renderPopup("Uppss! Ocurrio un error", "Vuelve a intentarlo", isDisabled)}
+            <div className='info-title'>
+                <h2>Contacto</h2>
+                <img src="https://res.cloudinary.com/dw6c4dado/image/upload/v1668401769/mobile-phone-svgrepo-com_kmqtpy.svg" alt="contact" />
+            </div>
             <div className="info-container">
 
-                <div className='info-title'>
-                    <h2>Contacto</h2>
-                    <img src="https://res.cloudinary.com/dw6c4dado/image/upload/v1668401769/mobile-phone-svgrepo-com_kmqtpy.svg" alt="contact" />
-                </div>
                 <div id="contact">
 
                     <div className="contact-box">
@@ -194,13 +194,13 @@ function Info() {
                                         />
                                     </div>
 
-                                <div className="btn-send">
-                                    {visibility ? 
-                                        <button onClick={handleClick} style={{visibility: 'hidden'} } className="submit-btn">Enviar</button>
-                                        :
-                                        <button onClick={handleClick} style={{visibility: 'visible'} } className="submit-btn">Enviar</button>
-                                    }
-                                </div>
+                                    <div className="btn-send">
+                                        {visibility ?
+                                            <button onClick={handleClick} style={{ visibility: 'hidden' }} className="submit-btn">Enviar</button>
+                                            :
+                                            <button onClick={handleClick} style={{ visibility: 'visible' }} className="submit-btn">Enviar</button>
+                                        }
+                                    </div>
                                 </div>
                             </form>
                         </div>

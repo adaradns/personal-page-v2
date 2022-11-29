@@ -91,7 +91,10 @@ section.aboutme p {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
+        padding:7em;
+
+
     }
 
     section.aboutme p {
@@ -106,7 +109,9 @@ section.aboutme p {
         flex-direction: column;
         justify-content: center;
         width: 70vw;
-        background-color: rgba(176, 178, 255, 0.7);
+        /* background-color: rgba(176, 178, 255, 0.7); */
+        background-color: rgb(243 243 252 / 70%);
+        border-radius: 10px;
         -webkit-box-shadow: 4px 6px 5px -3px rgba(41, 41, 41, 1);
         -moz-box-shadow: 4px 6px 5px -3px rgba(41, 41, 41, 1);
         box-shadow: 4px 6px 5px -3px rgba(41, 41, 41, 1);

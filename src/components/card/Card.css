@@ -76,9 +76,10 @@ section.presentation {
 .card img {
   /* width: 15em;
   height: 15em; */
-  padding: 2.0em;
+  /* padding: 2.0em; */
   /* border-radius: 600px; */
   position: absolute;
+  width: 80vw;
 
 }
 

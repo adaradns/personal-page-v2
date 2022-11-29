@@ -136,11 +136,34 @@ h2 {
         flex-direction: row-reverse;
         align-content: center;
         justify-content: center;
-        background-color: #fff;
+        background-color: rgb(205 206 255 / 70%);
         border-top: 3px solid #1b1b35;
+    }
+
+    .title-container h2 {
+        /* color: #FAF0CA; */
+        font-size: 2em;
     }
     
     .title-container img {
         width: 3%;
+    }
+
+    .box-skills {
+        background-color: rgb(243 243 252 / 70%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill-item{
+        padding-bottom:0;
+    }
+    .box-skills p.skill-description{
+        font-size: 1.5rem;
+    }
+    .skill-images p {
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 1em;
     }
 }
