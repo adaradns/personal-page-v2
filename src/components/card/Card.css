@@ -24,19 +24,7 @@ section.presentation {
 }
 
 .card {
-  /* border: 2px solid black; */
-  /* height: 90vh; */
-  /* padding: 1.5em; */
-  /* background-color: rgb(158, 0, 0); */
   color: #3F0071;
-  /* width: 20vw; */
-  /* margin: 2.5em; */
-  /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center; */
-  width: 90vw;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
