@@ -77,7 +77,8 @@ section.skills {
 }
 
 .title-container img {
-    width: 10%;
+    width: 15%;
+    padding: 1em;
 }
 
 h2 {
@@ -146,7 +147,7 @@ h2 {
     }
     
     .title-container img {
-        width: 3%;
+        width: 4%;
     }
 
     .box-skills {

@@ -12,7 +12,7 @@ function Skill() {
             <div className="section-title-container">
                 <div className="title-container">
                     <h2>Habilidades</h2>
-                    <img src="https://res.cloudinary.com/dw6c4dado/image/upload/v1668399920/skills-svgrepo-com_uxwpra.svg" alt="skills" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/3095/3095221.png" alt="skills" />
                 </div>
 
             </div>
