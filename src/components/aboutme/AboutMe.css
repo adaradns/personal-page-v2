@@ -12,8 +12,6 @@
 
 .container-about {
     background: rgba(209, 209, 226, 0.8);
-    /* height: 100vh; */
-    /* url('../../public/background-about.svg'); */
 }
 
 .container-title {
@@ -56,21 +54,6 @@ section.aboutme p {
 .container-image-developer img {
     width: 90%;
 }
-
-
-/* @keyframes wipe-enter {
-	0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(1, .025);
-	}
-}
-
-.paragraph-container {
-    animation-name: wipe-enter;
-    animation-duration: 2s;
-  } */
 
 @media screen and (min-width: 768px) {
     .container-title {

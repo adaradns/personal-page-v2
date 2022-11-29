@@ -29,10 +29,10 @@ function AboutMe() {
             />
 
             <ItemParagraph
-              paragraph="Me gusta mucho viajar, en cuanto puedo me escapo aunque sea un finde semana soy fanática de conocer pueblos de la provincia de Buenos Aires. "
+              paragraph="Me gusta mucho viajar, en cuanto puedo me escapo aunque sea un fin de semana. Soy fanática de conocer pueblos de la provincia de Buenos Aires. "
             />
             <ItemParagraph
-              paragraph="En fin, espero no haberlos aburrido con mi repertorio, si llegaron hasta aquí, y es de su interés les dejo un stack de tecnologías que manejo, gracias por haber leído."
+              paragraph="Gracias por haber leido, si llegaron hasta aquí, y es de su interés les dejo un stack de tecnologías que manejo, gracias por haber leído."
             />
           </div>
           <div className="container-image-developer">
